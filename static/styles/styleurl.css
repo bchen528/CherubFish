@@ -4,7 +4,7 @@
 }
 .search_bar {
     width: 75%;
-    height: 3em;    
+    height: 3em;
     background-color: orange;
 }
 
@@ -18,5 +18,4 @@
     text-align: center;
     margin-top: 10px;
     height: 30px;
-    display: none;
 }
