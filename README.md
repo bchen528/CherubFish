@@ -2,13 +2,12 @@
 > https://cherubfish.holberton.us (35.194.72.192) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/cherub_fish)
 
 ### Built with
-* Python, Flask, SQLlite, Jquery, HTML, CSS, Javascript
+* Python, Flask, SQLlite, HTML, CSS, Javascript, Jinja
 
-<img width="250" src="https://raw.githubusercontent.com/Syssos/CherubFish/master/static/images/TwitterScreenshot.PNG">
---
+<img width="800" src="https://raw.githubusercontent.com/Syssos/CherubFish/master/static/images/team.PNG">
 
 ### CEO
-Victor [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/victormdnguyen)
+Victor Nguyen[![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/victormdnguyen)
 
 ### Product Manager
 Kevin Yook [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/yook00627)
@@ -17,7 +16,7 @@ Kevin Yook [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bi
 Daniel Kazemian [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/Dan_Kazam)
 Greg Dame [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/gjdame)
 Melissa Ng [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/MelissaNg__)
-Mikaela [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/MikaelaGurney)
+Mikaela Gurney [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/MikaelaGurney)
 Cody Paral [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/Cody_299)
 Evan Sznol [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/IOLevi)
 
