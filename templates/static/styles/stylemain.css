@@ -5,16 +5,19 @@
 
 .Header {
     background-image: url('https://github.com/Syssos/CherubFish/blob/web/templates/static/images/Banner.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: center;
+    background-size: cover;
     height: 250px;
     width: 100%;
-    position: fixed;
-    
+    position: fixed;    
 }
 
 section.main_con {
     width: 75%;
-    padding-top: 260px;
     color: white;
+    padding-top: 260px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -25,7 +28,6 @@ div.Content {
     width: 100%;
     height: 250px;
     border: 1px orange solid;
-    background-color: black;
     margin-bottom: 10px;
     flex-wrap: no-wrap;
 }
