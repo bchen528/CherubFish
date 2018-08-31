@@ -1,14 +1,12 @@
 ## URL Shortener
 > www.cherubfish.holberton.us (35.194.72.192) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/cherub_fish)
 
-![Opps, you missed out on a screenshot!](https://raw.githubusercontent.com/Syssos/CherubFish/master/static/images/TwitterScreenshot.PNG)
-
 ### Built with
-* Python
-* Flask
-* Javascript
-* SQLlite
-* Jquery
+* Python, Flask, SQLlite, Jquery, HTLM, CSS, Javascript
+
+<p align="center">
+<img width="200" src="https://raw.githubusercontent.com/Syssos/CherubFish/master/static/images/TwitterScreenshot.PNG">
+</p>
 
 ### CEO
 Victor [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/victormdnguyen)
