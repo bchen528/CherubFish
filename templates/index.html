@@ -15,15 +15,24 @@
             <div class="Content">
                 <form method="POST" class="URL_bar">
                     <input type="text" name="URL" class="search_bar">
-                    <input type="submit" class="search_button" onclick="myFunction()">
+                    <input type="submit" class="search_button" onclick="dropDownfunc();return false">
                 </form>
-                <div class="Url_response">
+                <div id="Url_response">
                     {{ response }}
                 </div>
             </div>
             <div class="Content">
                 This is the content
             </div>
+            <div class="Content">
+                    <form method="POST" class="URL_bar">
+                        <input type="text" name="URL" class="search_bar">
+                        <input type="submit" class="search_button" onclick="dropDownfunc2();return false">
+                    </form>
+                    <div id="Url_response2">
+                        {{ response }}
+                    </div>
+                </div>
         </section>
     </body>
 </html>
