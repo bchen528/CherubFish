@@ -1,5 +1,5 @@
 ## URL Shortener
-> cherubfish.holberton.us (35.194.72.192) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/cherub_fish)
+> https://cherubfish.holberton.us (35.194.72.192) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/cherub_fish)
 
 ### Built with
 * Python, Flask, SQLlite, Jquery, HTML, CSS, Javascript
