@@ -1,0 +1,8 @@
+.Nav {
+    width: 100px;
+    height: 250px;
+    position: fixed;
+    margin-top: 300px;
+    float: left;
+    background-color: #73bcce;
+}
