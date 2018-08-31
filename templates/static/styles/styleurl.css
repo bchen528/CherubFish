@@ -13,7 +13,7 @@
     height: 3em;
 }
 
-.Url_response {
+#Url_response, #Url_response2 {
     background-color: red;
     text-align: center;
     margin-top: 10px;
