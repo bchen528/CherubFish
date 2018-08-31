@@ -1,0 +1,44 @@
+.About {
+   width: 100%;
+   height: 100%;
+   margin-bottom: 10px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.Title {
+   width: 100%;
+   margin-bottom: 1em;
+   text-align: center;
+   color: white;
+}
+
+.per_box {
+   width: 25%;
+   height: 200px;
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   display: flex;
+   flex-direction: column;
+}
+
+.picture {
+   height: 70%;
+   width: 40%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.name {
+   height: 10%;
+   width: 100%;
+   text-align: center;
+}
+
+.descr {
+   height: 30%;
+   width: 100%;
+   padding-top: 5px;
+   text-align: center;
+}

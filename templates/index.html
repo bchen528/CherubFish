@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="../static/styles/stylemain.css">
         <link rel="stylesheet" href="../static/styles/stylenav.css">
         <link rel="stylesheet" href="../static/styles/styleurl.css">
+	<link rel="stylesheet" href="../static/styles/styleabout.css">
 		<script src="static/js/myfunc.js"></script>
         <title>CherubFish: URL shortner </title>
     </head>
@@ -14,7 +15,7 @@
             <div class="Content">
                 <h1>Enter URL:</h1>
                 <form method="POST" class="URL_bar">
-                    <input type="text" name="URL" value="Your long URL here: " class="search_bar">
+                    <input type="text" name="URL" value="Your long URL here: " class="search_bar" onfocus="if (this.value=='Your long URL here: ') this.value='';">
                     <input type="submit" class="search_button">
                 </form>
 		<div id="Url_response">
@@ -23,13 +24,74 @@
 		  {% endif %}
                </div>
             </div>
-            <div class="Content">
-                This is the content
+	    <div class="About">
+            <div class="Title"><h2>About the company</h2></div>
+            <div class="per_box">
+                <div class="picture"><img src="https://pbs.twimg.com/profile_images/907125479651500032/AsfASssZ_400x400.jpg" width="100%" height="100%"></div>
+                <div class="name">Victor Nguyen</div>
+                <div class="descr">CEO</div>
             </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://pbs.twimg.com/profile_images/952935208260583424/pU7iTW2E_400x400.jpg" width="100%" height="100%"></div>
+                    <div class="name">Becky Chen</div>
+                    <div class="descr">SRE</div>
+            </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://pbs.twimg.com/profile_images/968524260615401473/6xkktc0N_400x400.jpg" width="100%" height="100%"></div>
+                    <div class="name">Alex Allen</div>
+                    <div class="descr">SRE</div>
+            </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://pbs.twimg.com/profile_images/907956839681220608/rCvpAl4Q_400x400.jpg" width="100%" height="100%"></div>
+                    <div class="name">Kevin Yook</div>
+                    <div class="descr">Product Manager</div>
+            </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://avatars0.githubusercontent.com/u/30218288?s=460&v=4" width="100%" height="100%"></div>
+                    <div class="name">Cody Paral</div>
+                    <div class="descr">Full Stack Engineer</div>
+            </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://pbs.twimg.com/profile_images/761538843828899841/XlwkpsLB_400x400.jpg" width="100%" height="100%"></div>
+                    <div class="name">Greg Dame</div>
+                    <div class="descr">Full Stack Engineer</div>
+            </div>
+            <div class="per_box">
+                <div class="picture"><img src="https://pbs.twimg.com/profile_images/958957485041246208/1dJbX2an_400x400.jpg" width="100%" height="100%"></div>
+                <div class="name">Mikaela Gurney</div>
+                <div class="descr">Full Stack Engineer</div>
+            </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://pbs.twimg.com/profile_images/962106694250606592/gt4GuwIC_400x400.jpg" width="100%" height="100%"></div>
+                    <div class="name">Amy Galles</div>
+                    <div class="descr">Full Stack Engineer</div>
+                </div>
+            <div class="per_box">
+                <div class="picture"><img src="https://pbs.twimg.com/profile_images/979998031989784576/Q0mfm7Iz_400x400.jpg" width="100%" height="100%"></div>
+                <div class="name">Daniel Kazemian</div>
+                <div class="descr">Full Stack Engineer</div>
+            </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://pbs.twimg.com/profile_images/952949959388667905/ej8XWUPP_400x400.jpg" width="100%" height="100%"></div>
+                    <div class="name">Evan Sznol</div>
+                    <div class="descr">Full Stack Engineer</div>
+            </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://pbs.twimg.com/profile_images/942512235498237952/Sx77NzrB_400x400.jpg" width="100%" height="100%"></div>
+                    <div class="name">Jason Hancock</div>
+                    <div class="descr">Marketing</div>
+            </div>
+            <div class="per_box">
+                    <div class="picture"><img src="https://pbs.twimg.com/profile_images/924940143873556480/3cRTVave_400x400.jpg" width="100%" height="100%"></div>
+                    <div class="name">Melissa Ng</div>
+                    <div class="descr">Full Stack Engineer</div>
+            </div>
+        </div>
+
             <div class="Content">
                 <h1>Stay In Touch!</h1>
                     <form method="POST" class="URL_bar">
-                        <input type="text" name="URL" value="Your Email Here: "class="search_bar">
+                        <input type="text" name="URL" value="Your Email Here: "class="search_bar" onfocus="if (this.value=='Your Email Here: ') this.value='';">
                         <input type="submit" class="search_button" onclick="dropDownfunc2();return false">
                     </form>
                     <div id="Url_response2">
