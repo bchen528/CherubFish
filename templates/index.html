@@ -20,7 +20,9 @@
                 </form>
 		<div id="Url_response">
 		  {% if short_url %}
-		  <div><p>{{short_url}}</p></div>
+		  <div>
+		    <p>0.0.0.0:4567/{{short_url}}<a href={{short_url}}> Click Me</a></p>
+		  </div>
 		  {% endif %}
                </div>
             </div>
@@ -64,7 +66,7 @@
             <div class="per_box">
                     <div class="picture"><img src="https://pbs.twimg.com/profile_images/962106694250606592/gt4GuwIC_400x400.jpg" width="100%" height="100%"></div>
                     <div class="name">Amy Galles</div>
-                    <div class="descr">Full Stack Engineer</div>
+                    <div class="descr">Marketing</div>
                 </div>
             <div class="per_box">
                 <div class="picture"><img src="https://pbs.twimg.com/profile_images/979998031989784576/Q0mfm7Iz_400x400.jpg" width="100%" height="100%"></div>
@@ -91,8 +93,8 @@
             <div class="Content">
                 <h1>Stay In Touch!</h1>
                     <form method="POST" class="URL_bar">
-                        <input type="text" name="URL" value="Your Email Here: "class="search_bar" onfocus="if (this.value=='Your Email Here: ') this.value='';">
-                        <input type="submit" class="search_button" onclick="dropDownfunc2();return false">
+                        <input type="text" name="Email" value="Your Email Here: "class="search_bar" onfocus="if (this.value=='Your Email Here: ') this.value='';">
+                        <input type="submit" class="search_button"">
                     </form>
                     <div id="Url_response2">
                         <div class="social_media">
