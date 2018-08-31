@@ -1,0 +1,22 @@
+.URL_bar {
+    text-align: center;
+    padding-top: 75px;
+}
+.search_bar {
+    width: 75%;
+    height: 3em;    
+    background-color: orange;
+}
+
+.search_button {
+    background-color: blue;
+    height: 3em;
+}
+
+.Url_response {
+    background-color: red;
+    text-align: center;
+    margin-top: 10px;
+    height: 30px;
+    display: none;
+}
