@@ -17,7 +17,7 @@
 
 .search_button {
     background-color: orange;
-    height: 3.7em;
+    height: 3.4em;
     width: 7em;
     border: 1px white solid;
     border-radius: 5px;
@@ -26,9 +26,16 @@
     font-size: 12px;
 }
 
-#Url_response, #Url_response2 {
+#Url_response {
     background-color: red;
     text-align: center;
     margin-top: 10px;
     height: 30px;
+}
+
+#Url_response2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }

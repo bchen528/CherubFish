@@ -43,5 +43,8 @@ body {
     margin-top: 40px;
     text-align: center;
     font-family: Montserrat
+}
 
+.social_media {
+    justify-content: center;
 }
