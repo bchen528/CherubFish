@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="static/styles/stylemain.css">
-        <link rel="stylesheet" href="static/styles/stylenav.css">
-        <link rel="stylesheet" href="static/styles/styleurl.css">
+        <link rel="stylesheet" href="../static/styles/stylemain.css">
+        <link rel="stylesheet" href="../static/styles/stylenav.css">
+        <link rel="stylesheet" href="../static/styles/styleurl.css">
 		<script src="static/js/myfunc.js"></script>
         <title>CherubFish: URL shortner </title>
     </head>
 
     <body>
         <div class="Header"></div>
-        
         <section class="main_con">
             <div class="Content">
                 <form method="POST" class="URL_bar">
                     <input type="text" name="URL" class="search_bar">
-                    <input type="submit" class="search_button" onclick="dropDownfunc();return false">
+                    <input type="submit" class="search_button">
                 </form>
                 <div id="Url_response">
-                    {{ response }}
+		  {% if short_url %}
+		  <div><p>{{short_url}}</p></div>
+		  {% endif %}
                 </div>
             </div>
             <div class="Content">

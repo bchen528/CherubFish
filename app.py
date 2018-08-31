@@ -40,8 +40,9 @@ def testshort():
         att = {'urlhash':short, 'actualurl':url}
         a = ShortURL(**att)
         a.save()
-        return render_template('test.html', short_url=short)
-    return render_template('test.html')
+        print(short)
+        return render_template('index.html', short_url=short)
+    return render_template('index.html')
 
 @app.route('/<string:shorturl>', strict_slashes=False, methods=['GET'])
 def testshort2(shorturl):
