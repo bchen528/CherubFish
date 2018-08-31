@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .URL_bar {
     text-align: center;
     padding-top: 75px;
@@ -5,12 +7,23 @@
 .search_bar {
     width: 75%;
     height: 3em;    
-    background-color: orange;
+    background-color:white;
+    margin: 10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 2px;
+    color: grey;
+    padding-left: 10px;
 }
 
 .search_button {
-    background-color: blue;
-    height: 3em;
+    background-color: orange;
+    height: 3.7em;
+    width: 7em;
+    border: 1px white solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    font-family: Montserrat;
+    font-size: 12px;
 }
 
 #Url_response, #Url_response2 {
