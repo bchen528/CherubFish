@@ -22,6 +22,7 @@ def tear_down(self):
 @app.errorhandler(404)
 def not_found(error):
     "error handler for 404"
+    return render_template(
     return make_response(jsonify({'error': 'Not found'}), 404)
 
 @app.route('/', strict_slashes=False, methods=['GET', 'POST'])
@@ -63,7 +64,7 @@ def testshort2(shorturl):
     if target:
         return redirect(target.actualurl)
     else:
-        return "BORKED"
+        abort(404)
 
 if __name__ == "__main__":
     app.run(
