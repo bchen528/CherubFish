@@ -1,8 +1,8 @@
 ## URL Shortener
-> www.cherubfish.holberton.us (35.194.72.192) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/cherub_fish)
+> cherubfish.holberton.us (35.194.72.192) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/cherub_fish)
 
 ### Built with
-* Python, Flask, SQLlite, Jquery, HTLM, CSS, Javascript
+* Python, Flask, SQLlite, Jquery, HTML, CSS, Javascript
 
 <img width="250" src="https://raw.githubusercontent.com/Syssos/CherubFish/master/static/images/TwitterScreenshot.PNG">
 --
