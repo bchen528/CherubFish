@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CherubFish: URL shortner </title>
+    </head>
+
+    <body>
+        <section class="main_con">
+            <form method="POST">
+                <input type="text" name="URL">
+                <input type="submit">
+            </form>
+	        {% if short_url %}
+	        <div><p>{{short_url}}</p></div>
+		    {% endif %}
+        </section>
+    </body>
+</html>
