@@ -4,21 +4,11 @@
 }
 
 .Header {
-    background-image: url('static/images/Banner.jpg');
-    background-color: blue;
+    background-image: url('https://github.com/Syssos/CherubFish/blob/web/templates/static/images/Banner.jpg?raw=true');
     height: 250px;
     width: 100%;
     position: fixed;
     
-}
-
-.Nav {
-    width: 50px;
-    height: 500px;
-    position: fixed;
-    margin-top: 250px;
-    float: left;
-    background-color: yellow;
 }
 
 section.main_con {
