@@ -3,19 +3,23 @@
     <head>
         <link rel="stylesheet" href="static/styles/stylemain.css">
         <link rel="stylesheet" href="static/styles/stylenav.css">
+        <link rel="stylesheet" href="static/styles/styleurl.css">
+		<script src="static/js/myfunc.js"></script>
         <title>CherubFish: URL shortner </title>
     </head>
 
     <body>
-        <div class="Header">
-            <h2>This is the Header</h2>
-        </div>
-        <div class="Nav">
-            <h2>This is the Header</h2>
-        </div>
+        <div class="Header"></div>
+        
         <section class="main_con">
             <div class="Content">
-                This is the content
+                <form method="POST" class="URL_bar">
+                    <input type="text" name="URL" class="search_bar">
+                    <input type="submit" class="search_button" onclick="myFunction()">
+                </form>
+                <div class="Url_response">
+                    {{ response }}
+                </div>
             </div>
             <div class="Content">
                 This is the content
