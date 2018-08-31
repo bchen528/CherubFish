@@ -6,8 +6,8 @@ from os import getenv
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker, scoped_session
 from base_entry import ShortURL
+from emailentry import Email 
 from base_entry import Base
-
 class DBStorage:
     '''
         Create SQLalchemy database
@@ -95,3 +95,15 @@ class DBStorage:
             return [a for a in self.all(ShortURL).values() if a.urlhash == id][0]
         except (IndexError, TypeError):
             return None
+
+    def getemail(self):
+        'gets email'
+        db_dict = {}
+
+        objs = self.__session.query(Email).all()
+        for obj in objs:
+            key = "{}.{}".format(obj.__class__.__name__, obj.id)
+            db_dict[key] = obj
+        return db_dict
+
+        
