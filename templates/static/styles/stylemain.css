@@ -31,3 +31,14 @@ div.Content {
     margin-bottom: 10px;
     flex-wrap: no-wrap;
 }
+
+body { 
+    background-color: #222629;
+}
+
+.main_con h1 {
+    padding-top: 10px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    text-align: center;
+}
