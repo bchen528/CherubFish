@@ -22,8 +22,8 @@ def tear_down(self):
 @app.errorhandler(404)
 def not_found(error):
     "error handler for 404"
-    return render_template(
-    return make_response(jsonify({'error': 'Not found'}), 404)
+    return render_template('custom_404.html')
+#    return make_response(jsonify({'error': 'Not found'}), 404)
 
 @app.route('/', strict_slashes=False, methods=['GET', 'POST'])
 def testshort():
