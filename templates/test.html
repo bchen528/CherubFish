@@ -10,6 +10,9 @@
                 <input type="text" name="URL">
                 <input type="submit">
             </form>
+	    {% if short_url %}
+	    <div><p>{{short_url}}</p></div>
+	    {% endif %}
         </section>
     </body>
 </html>
